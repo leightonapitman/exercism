@@ -7,7 +7,6 @@ fn date_only_specification_of_time() {
 }
 
 #[test]
-#[ignore]
 fn second_test_for_date_only_specification_of_time() {
     let start = datetime(1977, 6, 13, 0, 0, 0);
     let actual = gigasecond::after(start);
